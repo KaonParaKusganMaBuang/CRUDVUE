@@ -104,6 +104,8 @@ function deleteTask(id) {
   if (confirmDelete) {
     tasks.value = tasks.value.filter(task => task.id !== id)
   }
+
+  
 }
 
 function resetForm() {
